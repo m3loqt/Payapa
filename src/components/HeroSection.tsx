@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { FaTwitter, FaLinkedinIn, FaInstagram, FaStar } from "react-icons/fa";
 import { motion } from "framer-motion";
 
@@ -204,9 +203,9 @@ export default function HeroSection() {
                 ))}
               </div>
               <p className="text-white text-xs md:text-sm leading-relaxed">
-                "Payapa has been a game changer for my wellness. Their attention
-                to detail and functionality with exquisite design is
-                unparalleled and best"
+                &ldquo;Payapa has been a game changer for my wellness. Their
+                attention to detail and functionality with exquisite design is
+                unparalleled and best&rdquo;
               </p>
             </motion.div>
           </div>
