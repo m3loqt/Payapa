@@ -76,7 +76,7 @@ export default function OtherServices() {
           Feel Renewed
         </h1>
 
-        <p className="text-sm sm:text-base text-black/70 font-light leading-normal tracking-normal mb-[-20px] max-w-md">
+        <p className="text-sm sm:text-base md:text-lg text-black/70 leading-normal mb-[-20px] sm:mb-3 md:mb-4 max-w-md">
           Our offerings go beyond the usual and personalized experiences to
           align with your unique wellness needs.
         </p>
@@ -176,7 +176,7 @@ export default function OtherServices() {
               Feel Renewed
             </h1>
 
-            <p className="text-lg text-black/70 font-light leading-normal tracking-normal mb-8 max-w-md">
+            <p className="text-lg text-black/70 leading-normal tracking-normal mb-8 max-w-md">
               Our offerings go beyond the usual and personalized experiences to
               align with your unique wellness needs.
             </p>
