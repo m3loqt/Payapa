@@ -21,7 +21,7 @@ const massages = [
   {
     title: "Daloy",
     description:
-      "A smooth, flowing massage with essential oils that enhances circulation and gently soothes the senses.",
+      "A smooth, flowing massage with essential oils that enhances circulation and soothes senses.",
     inclusions: [
       "Warm oil therapy",
       "Light pressure strokes",
@@ -34,7 +34,7 @@ const massages = [
   {
     title: "Hiraya",
     description:
-      "Combines suction therapy with massage to detoxify, release tension, and renew natural body harmony.",
+      "Combines suction therapy with massage to detoxify, release tension, and renew body harmony.",
     inclusions: ["Cupping therapy", "Detox scrub", "Hydration wrap"],
     duration: "90 mins",
     price: "₱2,100",
@@ -154,17 +154,18 @@ export default function SignatureMassages() {
                   <h3 className="text-xl sm:text-2xl md:text-3xl font-normal mb-3 leading-[1.2] tracking-tight">
                     {massage.title}
                   </h3>
-                  <p className="text-black/80 text-sm sm:text-base md:text-lg leading-relaxed font-light mb-4">
+                  <p className="text-black/70 text-base sm:text-md md:text-lg leading-relaxed mb-4">
                     {massage.description}
                   </p>
 
-                  <ul className="list-disc pl-5 text-sm text-black/70 space-y-1 mb-4">
+
+                  <ul className="list-disc pl-5 text-base text-black/60 space-y-1 mb-4">
                     {massage.inclusions.map((item, idx) => (
                       <li key={idx}>{item}</li>
                     ))}
                   </ul>
 
-                  <div className="text-sm sm:text-base text-black font-normal mb-4">
+                  <div className="text-sm sm:text-base text-black/80 font-normal mb-8">
                     <span className="inline-block mr-4">
                       {massage.duration}
                     </span>

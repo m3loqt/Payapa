@@ -7,7 +7,7 @@ const otherServices = [
   {
     title: "Kalinaw",
     description:
-      "Restore inner peace with our deeply grounding experience combining traditional massage with mindful silence.",
+      "Restore inner peace with our deeply grounding experience combining traditional massage with silence.",
     inclusions: ["Guided meditation", "Light touch therapy", "Herbal compress"],
     duration: "60 mins",
     price: "₱1,700",
@@ -77,8 +77,8 @@ export default function OtherServices() {
         </h1>
 
         <p className="text-sm sm:text-base text-black/70 font-light leading-normal tracking-normal mb-[-20px] max-w-md">
-          Our offerings go beyond the usual and personalized experiences to align
-          with your unique wellness needs.
+          Our offerings go beyond the usual and personalized experiences to
+          align with your unique wellness needs.
         </p>
       </div>
 
@@ -120,17 +120,17 @@ export default function OtherServices() {
                   <h3 className="text-xl sm:text-2xl md:text-3xl font-normal mb-3 leading-[1.2] tracking-tight">
                     {service.title}
                   </h3>
-                  <p className="text-black/80 text-sm sm:text-base md:text-lg leading-relaxed font-light mb-4">
+                  <p className="text-black/70 text-base sm:text-md md:text-lg leading-relaxed mb-4">
                     {service.description}
                   </p>
 
-                  <ul className="list-disc pl-5 text-sm text-black/70 space-y-1 mb-4">
+                  <ul className="list-disc pl-5 text-base text-black/60 space-y-1 mb-4">
                     {service.inclusions.map((item, idx) => (
                       <li key={idx}>{item}</li>
                     ))}
                   </ul>
 
-                  <div className="text-sm sm:text-base text-black font-normal mb-4">
+                  <div className="text-sm sm:text-base text-black/80 font-normal mb-8">
                     <span className="inline-block mr-4">
                       {service.duration}
                     </span>
@@ -180,8 +180,6 @@ export default function OtherServices() {
               Our offerings go beyond the usual and personalized experiences to
               align with your unique wellness needs.
             </p>
-
-          
           </div>
         </div>
       </div>

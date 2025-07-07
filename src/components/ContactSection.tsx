@@ -38,7 +38,7 @@ export default function ContactSection() {
           >
             Got more questions?
             <br />
-            Send us your enquiry below.
+            Send us your enquiry.
           </p>
         </div>
 
@@ -83,7 +83,7 @@ export default function ContactSection() {
           <div className="flex items-center gap-3 w-full">
             <input
               type="email"
-              placeholder="Work email"
+              placeholder="Email"
               className="w-full bg-[#F5F3F0] text-[#101010] placeholder:text-[#101010]/60 text-base px-5 py-3 rounded-xl border border-[#D8D5D2] focus:outline-none"
             />
             <button className="w-12 h-12 aspect-square flex items-center justify-center bg-black hover:bg-[#333] text-white rounded-full transition">
