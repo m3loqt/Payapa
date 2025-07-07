@@ -4,33 +4,65 @@ export default function Footer() {
   return (
     <footer className="relative bg-[#F2EFED] text-[#101010] px-6 md:px-20 pt-16 pb-20 border-t border-black/10 overflow-hidden">
       {/* Mobile Footer Layout */}
-      <div className="flex flex-col items-center md:hidden text-center gap-8 mb-1">        {/* CONTACT US for Mobile */}
+      <div className="flex flex-col items-center md:hidden text-center gap-8 mb-1">
+        {" "}
+        {/* CONTACT US for Mobile */}
         <div className="w-full">
           <h3 className="font-semibold mb-4">CONTACT US</h3>
           <ul className="space-y-2 text-[#101010]/70">
-            <li><p className="mt-4">0917-875-1813</p></li>
-            <li><p>payapaspa@gmail.com</p></li>
+            <li>
+              <p className="mt-4">0917-875-1813</p>
+            </li>
+            <li>
+              <p>payapaspa@gmail.com</p>
+            </li>
           </ul>
         </div>
-
         {/* QUICK LINKS for Mobile */}
         <div className="w-full">
           <h3 className="font-semibold mb-4">QUICK LINKS</h3>
           <ul className="space-y-2 text-[#101010]/70">
-            <li><a href="#" className="hover:underline">Home</a></li>
-            <li><a href="#" className="hover:underline">About us</a></li>
-            <li><a href="#" className="hover:underline">Services</a></li>
-            <li><a href="#" className="hover:underline">Contact</a></li>
+            <li>
+              <a href="#" className="hover:underline">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">
+                About us
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">
+                Services
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">
+                Contact
+              </a>
+            </li>
           </ul>
         </div>
-
         {/* FOLLOW US for Mobile */}
         <div className="w-full">
           <h3 className="font-semibold mb-4">FOLLOW US</h3>
           <ul className="text-[#101010]/70 flex justify-center gap-4">
-            <li><a href="#" className="hover:underline">Facebook</a></li>
-            <li><a href="#" className="hover:underline">Instagram</a></li>
-            <li><a href="#" className="hover:underline">Tiktok</a></li>
+            <li>
+              <a href="#" className="hover:underline">
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">
+                Tiktok
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -71,28 +103,53 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-4">Navigation</h3>
             <ul className="space-y-2 text-[#101010]/70">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">About us</a>
+              </li>
+              <li>
+                <a href="#">Services</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
             </ul>
           </div>
           <div>
             <h3 className="font-semibold mb-4">Follow us</h3>
             <ul className="space-y-2 text-[#101010]/70">
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">Tiktok</a></li>
+              <li>
+                <a href="#">Facebook</a>
+              </li>
+              <li>
+                <a href="#">Instagram</a>
+              </li>
+              <li>
+                <a href="#">Tiktok</a>
+              </li>
             </ul>
           </div>
           <div>
             <h3 className="font-semibold mb-4">Legal</h3>
             <ul className="space-y-2 text-[#101010]/70">
-              <li><a href="#">Terms & Conditions</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li>
+                <a href="#">Terms & Conditions</a>
+              </li>
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
             </ul>
           </div>
         </div>
+      </div>
+      {/* Disclaimer */}
+      <div className="mt-5 border-t border-black/10 pt-6 text-xs text-center text-[#101010]/50">
+        This is an unofficial concept website created for demonstration purposes
+        only. All images and branding are owned by Payapa Wellness & Spa and are
+        used here solely to illustrate the design concept. No content will be
+        used commercially without permission.
       </div>
     </footer>
   );

@@ -139,7 +139,7 @@ const CarouselRow = ({ reverse }: { reverse?: boolean }) => {
       {[...testimonials, ...testimonials].map((t, index) => (
         <div
           key={index}
-          className={`w-[85vw] sm:w-[410px] h-auto sm:h-[290px] p-4 sm:p-[25px] rounded-xl border border-gray-200 flex-shrink-0 flex flex-col justify-between ${
+          className={`w-[80vw] xs:w-[75vw] sm:w-[370px] h-auto sm:h-[290px] p-4 sm:p-[25px] rounded-xl border border-gray-200 flex-shrink-0 flex flex-col justify-between ${
             index % 2 === 0 ? "bg-[#F5F3F0]" : "bg-[#F5f5f5]"
           }`}
         >
