@@ -54,7 +54,7 @@ export default function AboutSection() {
           <p
             style={{
               fontFamily: "Inter, sans-serif",
-              fontWeight: 200,
+              fontWeight: 250,
             }}
             className="text-black/80 text-base sm:text-lg md:text-xl leading-relaxed"
           >
