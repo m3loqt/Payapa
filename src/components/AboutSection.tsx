@@ -56,7 +56,7 @@ export default function AboutSection() {
               fontFamily: "Inter, sans-serif",
               fontWeight: 200,
             }}
-            className="text-black/70 text-base sm:text-lg md:text-xl leading-relaxed"
+            className="text-black/80 text-base sm:text-lg md:text-xl leading-relaxed"
           >
             Rooted in Filipino wellness traditions and mindful living, Payapa
             Wellness & Spa is your quiet escape in the heart of Quezon City.
